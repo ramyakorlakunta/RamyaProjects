@@ -63,6 +63,41 @@
       
       .badges { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
       
+      .social-links {
+        display:flex;
+        flex-wrap:wrap;
+        gap:12px;
+        margin-top:20px;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .social-btn {
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        padding:12px 18px;
+        border-radius:999px;
+        color:white;
+        font-weight:700;
+        text-decoration:none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      }
+      
+      .social-btn:hover {
+        transform: translateY(-2px);
+        text-decoration:none;
+      }
+      
+      .social-btn.github {
+        background: linear-gradient(135deg, #111827 0%, #374151 100%);
+      }
+      
+      .social-btn.linkedin {
+        background: linear-gradient(135deg, #0a66c2 0%, #004182 100%);
+      }
+      
       .badge { 
         background: rgba(255,255,255,0.2);
         color: white;
@@ -195,6 +230,10 @@
           <span class="badge frontend">JavaScript</span>
           <span class="badge fullstack">Cloud</span>
         </div>
+        <div class="social-links">
+          <a class="social-btn github" href="https://github.com/ramyakorlakunta" target="_blank" rel="noopener">GitHub Profile</a>
+          <a class="social-btn linkedin" href="https://www.linkedin.com/in/ramyasri-korlakunta-924a6226b" target="_blank" rel="noopener">LinkedIn Profile</a>
+        </div>
       </header>
 
       <section class="ai-focused">
@@ -225,7 +264,7 @@
               <dt>LinkedIn</dt>
               <dd><a href="https://www.linkedin.com/in/ramyasri-korlakunta-924a6226b" target="_blank" rel="noopener">linkedin.com/in/ramyasri-korlakunta-924a6226b</a></dd>
               <dt>GitHub</dt>
-              <dd><a href="https://ramyakorlakunta.github.io/RamyaProjects/" target="_blank" rel="noopener">ramyakorlakunta.github.io/RamyaProjects</a></dd>
+              <dd><a href="https://github.com/ramyakorlakunta" target="_blank" rel="noopener">github.com/ramyakorlakunta</a></dd>
               <dt>Phone</dt>
               <dd>+91 9573444889</dd>
               <dt>Date of Birth</dt>
